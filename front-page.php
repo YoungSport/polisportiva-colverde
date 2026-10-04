@@ -13,9 +13,9 @@
     </div>
 
     <div class="hero-grid" aria-label="Gli sport della Polisportiva Colverde">
-      <a class="hero-tile hero-tile--volley" href="<?php echo esc_url(home_url('/squadre/pallavolo/')); ?>"><span>Pallavolo</span></a>
-      <a class="hero-tile hero-tile--calcio" href="<?php echo esc_url(home_url('/squadre/calcio/')); ?>"><span>Calcio</span></a>
-      <a class="hero-tile hero-tile--atletica" href="<?php echo esc_url(home_url('/squadre/atletica/')); ?>"><span>Atletica</span></a>
+      <a class="hero-tile hero-tile--volley" href="<?php echo esc_url(home_url('/squadre/pallavolo/')); ?>"><img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-Volley-U18-1536x864.jpg" alt="Pallavolo Polisportiva Colverde"><span>Pallavolo</span></a>
+      <a class="hero-tile hero-tile--calcio" href="<?php echo esc_url(home_url('/squadre/calcio/')); ?>"><img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-Calcio-Pulcini-1536x864.jpg" alt="Calcio Polisportiva Colverde"><span>Calcio</span></a>
+      <a class="hero-tile hero-tile--atletica" href="<?php echo esc_url(home_url('/squadre/atletica/')); ?>"><img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-ATL-RaCaAs-1536x870.jpg" alt="Atletica Polisportiva Colverde"><span>Atletica</span></a>
       <a class="hero-tile hero-tile--avviamento" href="<?php echo esc_url(home_url('/squadre/avviamento-allo-sport/')); ?>"><span>Avviamento</span></a>
     </div>
   </div>
@@ -32,19 +32,19 @@
 
   <div class="sports-grid">
     <a class="sport-card sport-card--volley" href="<?php echo esc_url(home_url('/squadre/pallavolo/')); ?>">
-      <span class="sport-card__number">01</span><h3>Pallavolo</h3><span class="sport-card__arrow">↗</span>
+      <img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-Volley-U16-1536x864.jpg" alt="Pallavolo"><span class="sport-card__number">01</span><h3>Pallavolo</h3><span class="sport-card__arrow">↗</span>
     </a>
     <a class="sport-card sport-card--calcio" href="<?php echo esc_url(home_url('/squadre/calcio/')); ?>">
-      <span class="sport-card__number">02</span><h3>Calcio</h3><span class="sport-card__arrow">↗</span>
+      <img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-Calcio-PCalci_PAmici-1536x870.jpg" alt="Calcio"><span class="sport-card__number">02</span><h3>Calcio</h3><span class="sport-card__arrow">↗</span>
     </a>
     <a class="sport-card sport-card--ginnastica" href="<?php echo esc_url(home_url('/squadre/ginnastica-artistica/')); ?>">
-      <span class="sport-card__number">03</span><h3>Ginnastica Artistica</h3><span class="sport-card__arrow">↗</span>
+      <img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2023/11/Corso-rosso-agonistica-Silver-FGI-1086x1536.jpg" alt="Ginnastica Artistica"><span class="sport-card__number">03</span><h3>Ginnastica Artistica</h3><span class="sport-card__arrow">↗</span>
     </a>
     <a class="sport-card sport-card--atletica" href="<?php echo esc_url(home_url('/squadre/atletica/')); ?>">
-      <span class="sport-card__number">04</span><h3>Atletica</h3><span class="sport-card__arrow">↗</span>
+      <img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-ATL-Eso-1536x882.jpg" alt="Atletica"><span class="sport-card__number">04</span><h3>Atletica</h3><span class="sport-card__arrow">↗</span>
     </a>
     <a class="sport-card sport-card--avviamento" href="<?php echo esc_url(home_url('/squadre/avviamento-allo-sport/')); ?>">
-      <span class="sport-card__number">05</span><h3>Avviamento allo Sport</h3><span class="sport-card__arrow">↗</span>
+      <img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-AvvSport-1536x870.jpg" alt="Avviamento allo Sport"><span class="sport-card__number">05</span><h3>Avviamento allo Sport</h3><span class="sport-card__arrow">↗</span>
     </a>
   </div>
 </section>
@@ -67,9 +67,9 @@
     <a class="text-link text-link--dark" href="<?php echo esc_url(home_url('/dove-siamo/')); ?>">Vedi tutti gli impianti →</a>
   </div>
   <div class="facility-grid">
-    <div class="facility-card facility-card--fumagalli"><span>Centro Sportivo Fumagalli</span><small>Gironico</small></div>
-    <div class="facility-card facility-card--drezzo"><span>Campo Sportivo</span><small>Drezzo</small></div>
-    <div class="facility-card facility-card--palaverde"><span>PalaVerde</span><small>Gironico</small></div>
+    <div class="facility-card facility-card--fumagalli"><img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/05/campo-11-1024x640.jpg" alt="Centro Sportivo Fumagalli"><span>Centro Sportivo Fumagalli</span><small>Gironico</small></div>
+    <div class="facility-card facility-card--drezzo"><img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/05/campo-7-1024x640.jpg" alt="Campo Sportivo Drezzo"><span>Campo Sportivo</span><small>Drezzo</small></div>
+    <div class="facility-card facility-card--palaverde"><img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/05/palaverde-1024x640.jpg" alt="PalaVerde"><span>PalaVerde</span><small>Gironico</small></div>
   </div>
 </section>
 
