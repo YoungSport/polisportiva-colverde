@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "notes": "Prima versione del nuovo tema Polisportiva Colverde: home multisport, menu semplificato, immagini reali Colverde, impianti e news.",
+  "files": [
+    {
+      "path": "style.css",
+      "github_path": "style.css",
+      "encoding": "text"
+    },
+    {
+      "path": "functions.php",
+      "github_path": "functions.php",
+      "encoding": "text"
+    },
+    {
+      "path": "header.php",
+      "github_path": "header.php",
+      "encoding": "text"
+    },
+    {
+      "path": "footer.php",
+      "github_path": "footer.php",
+      "encoding": "text"
+    },
+    {
+      "path": "front-page.php",
+      "github_path": "front-page.php",
+      "encoding": "text"
+    },
+    {
+      "path": "index.php",
+      "github_path": "index.php",
+      "encoding": "text"
+    },
+    {
+      "path": "assets/css/main.css",
+      "github_path": "assets/css/main.css",
+      "encoding": "text"
+    },
+    {
+      "path": "assets/js/main.js",
+      "github_path": "assets/js/main.js",
+      "encoding": "text"
+    }
+  ],
+  "delete": []
+}
