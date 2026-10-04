@@ -10,24 +10,19 @@
 
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="brand" href="<?php echo esc_url(home_url('/')); ?>">
-      <?php
-      if (has_custom_logo()) {
-          the_custom_logo();
-      } else {
-          bloginfo('name');
-      }
-      ?>
+    <a class="brand" href="<?php echo esc_url(home_url('/')); ?>" aria-label="Polisportiva Colverde">
+      <span class="brand__mark">PC</span>
+      <span class="brand__text">POLISPORTIVA<br>COLVERDE</span>
     </a>
 
     <nav class="main-nav" aria-label="Navigazione principale">
-      <?php
-      wp_nav_menu([
-          'theme_location' => 'primary',
-          'container' => false,
-          'fallback_cb' => false,
-      ]);
-      ?>
+      <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
+      <a href="<?php echo esc_url(home_url('/la-societa-2/')); ?>">La Polisportiva</a>
+      <a href="<?php echo esc_url(home_url('/#sport')); ?>">Sport</a>
+      <a href="<?php echo esc_url(home_url('/dove-siamo/')); ?>">Impianti</a>
+      <a href="<?php echo esc_url(home_url('/eventi/')); ?>">Eventi</a>
+      <a href="<?php echo esc_url(home_url('/safeguarding/')); ?>">Safeguarding</a>
+      <a class="nav-cta" href="<?php echo esc_url(home_url('/contatti/')); ?>">Contatti</a>
     </nav>
   </div>
 </header>
