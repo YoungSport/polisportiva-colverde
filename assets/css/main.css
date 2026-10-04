@@ -30,14 +30,10 @@ img { max-width:100%; height:auto; display:block; }
   display:flex;
   align-items:center;
   justify-content:center;
-  background:#fff;
-  border-radius:14px;
-  padding:7px 9px;
-  box-shadow:0 8px 24px rgba(0,0,0,.12);
 }
 .brand__logo {
   display:block;
-  height:72px;
+  height:82px;
   width:auto;
 }
 .main-nav { display:flex; align-items:center; gap:26px; font-size:13px; font-weight:800; text-transform:uppercase; }
