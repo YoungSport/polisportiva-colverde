@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "notes": "Prima versione del nuovo tema Polisportiva Colverde: home multisport, menu semplificato, immagini reali Colverde, impianti e news.",
+  "version": "1.0.1",
+  "notes": "Fix caricamento CSS: cache-busting e fallback inline per la vecchia installazione WordPress.",
   "files": [
     {
       "path": "style.css",
