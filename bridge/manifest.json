@@ -1,35 +1,10 @@
 {
-  "version": "1.0.3",
-  "notes": "Correzione immagini: inserite come elementi HTML reali. Aggiornamento completo del tema Polisportiva Colverde.",
+  "version": "1.0.4",
+  "notes": "Logo ufficiale Colverde salvato come file PNG reale nel tema.",
   "files": [
-    {
-      "path": "style.css",
-      "github_path": "style.css",
-      "encoding": "text"
-    },
-    {
-      "path": "functions.php",
-      "github_path": "functions.php",
-      "encoding": "text"
-    },
     {
       "path": "header.php",
       "github_path": "header.php",
-      "encoding": "text"
-    },
-    {
-      "path": "footer.php",
-      "github_path": "footer.php",
-      "encoding": "text"
-    },
-    {
-      "path": "front-page.php",
-      "github_path": "front-page.php",
-      "encoding": "text"
-    },
-    {
-      "path": "index.php",
-      "github_path": "index.php",
       "encoding": "text"
     },
     {
@@ -38,8 +13,8 @@
       "encoding": "text"
     },
     {
-      "path": "assets/js/main.js",
-      "github_path": "assets/js/main.js",
+      "path": "assets/images/logo-colverde.png",
+      "github_path": "assets/images/logo-colverde.png",
       "encoding": "text"
     }
   ],
