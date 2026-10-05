@@ -237,3 +237,21 @@ img { max-width:100%; height:auto; display:block; }
   .brand{min-width:90px !important;}
   .brand__logo{width:68px !important;height:68px !important;}
 }
+
+/* v1.0.7 exact official white logo */
+.brand{min-width:180px !important;}
+.brand__logo-shell{background:transparent !important;box-shadow:none !important;padding:0 !important;}
+.brand__logo{
+  display:block !important;
+  width:auto !important;
+  height:86px !important;
+  max-width:190px !important;
+  object-fit:contain !important;
+  filter:none !important;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+@media(max-width:700px){
+  .brand{min-width:110px !important;}
+  .brand__logo{height:66px !important;max-width:150px !important;}
+}
