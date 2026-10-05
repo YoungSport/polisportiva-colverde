@@ -255,3 +255,36 @@ img { max-width:100%; height:auto; display:block; }
   .brand{min-width:110px !important;}
   .brand__logo{height:66px !important;max-width:150px !important;}
 }
+
+/* v1.0.8 - usa direttamente il logo caricato in Media */
+.brand{
+  min-width:200px !important;
+  overflow:visible !important;
+}
+.brand__logo-shell{
+  width:190px !important;
+  height:92px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  overflow:hidden !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  padding:0 !important;
+}
+.brand__logo{
+  width:190px !important;
+  height:190px !important;
+  max-width:none !important;
+  object-fit:contain !important;
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  filter:invert(1) grayscale(1) brightness(4) !important;
+  mix-blend-mode:screen !important;
+}
+@media(max-width:700px){
+  .brand{min-width:135px !important;}
+  .brand__logo-shell{width:130px !important;height:72px !important;}
+  .brand__logo{width:130px !important;height:130px !important;}
+}
