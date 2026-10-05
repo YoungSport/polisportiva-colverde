@@ -37,3 +37,21 @@ document.addEventListener('DOMContentLoaded', function () {
   show(0);
   restart();
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const banner = document.getElementById('colverde-cookie-banner');
+  if (!banner) return;
+
+  const key = 'colverde_cookie_consent_v1';
+  const current = localStorage.getItem(key);
+
+  if (!current) banner.hidden = false;
+
+  banner.querySelectorAll('[data-cookie-choice]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      localStorage.setItem(key, button.getAttribute('data-cookie-choice'));
+      banner.hidden = true;
+    });
+  });
+});
