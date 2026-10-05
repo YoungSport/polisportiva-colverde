@@ -1,6 +1,6 @@
 {
-  "version": "1.0.6",
-  "notes": "Correzione definitiva visibilità logo: usa asset WordPress già disponibile e lo rende bianco.",
+  "version": "1.0.7",
+  "notes": "Logo ufficiale Colverde bianco, PNG reale nel tema. Rimossi vecchio stemma e filtri.",
   "files": [
     {
       "path": "header.php",
@@ -10,6 +10,11 @@
     {
       "path": "assets/css/main.css",
       "github_path": "assets/css/main.css",
+      "encoding": "text"
+    },
+    {
+      "path": "assets/images/logo-colverde.png",
+      "github_path": "assets/images/logo-colverde.png",
       "encoding": "text"
     }
   ],
