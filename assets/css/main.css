@@ -624,3 +624,59 @@ img { max-width:100%; height:auto; display:block; }
   .sports-grid--six{grid-template-columns:1fr;}
   .sports-grid--six .sport-card--wide{grid-column:auto;}
 }
+
+
+/* v1.2.1 - typography closer to Pro Patria */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800;900&display=swap');
+
+html, body,
+button, input, select, textarea,
+.site-header,
+.main-nav,
+.home-carousel,
+.section,
+.manifesto,
+.news-section,
+.join,
+.site-footer {
+  font-family:'Roboto Condensed', Arial, Helvetica, sans-serif !important;
+}
+
+.main-nav a,
+.eyebrow,
+.ticker__inner,
+.federations__label,
+.sport-card__number,
+.news-card__meta,
+.news-card__read {
+  font-family:'Roboto Condensed', Arial, Helvetica, sans-serif !important;
+  font-weight:700 !important;
+  letter-spacing:.02em !important;
+}
+
+.home-slide__content h1,
+.home-slide__content h2,
+.section-head h2,
+.manifesto__copy h2,
+.join h2,
+.sport-card__title h3,
+.news-card h3 {
+  font-family:'Roboto Condensed', Arial, Helvetica, sans-serif !important;
+  font-weight:800 !important;
+  letter-spacing:-.025em !important;
+}
+
+.home-slide__content h1,
+.home-slide__content h2 {
+  line-height:.88 !important;
+}
+
+.main-nav {
+  font-size:14px !important;
+  font-weight:700 !important;
+}
+
+body {
+  font-size:17px;
+  font-weight:400;
+}
