@@ -188,3 +188,34 @@ img { max-width:100%; height:auto; display:block; }
   position:relative;
   z-index:2;
 }
+
+/* v1.0.5 - logo header fix */
+.site-header{
+  background:#0b4f2f !important;
+  position:relative !important;
+  padding:14px 28px !important;
+}
+.site-header__inner{
+  min-height:86px;
+}
+.brand__logo-shell{
+  background:transparent !important;
+  box-shadow:none !important;
+  padding:0 !important;
+}
+.brand__logo{
+  display:block !important;
+  height:74px !important;
+  width:auto !important;
+  max-width:260px !important;
+  object-fit:contain;
+  filter:brightness(0) invert(1) !important;
+}
+.main-nav,
+.main-nav a{
+  color:#fff !important;
+}
+@media (max-width:700px){
+  .brand__logo{height:58px !important;max-width:200px !important;}
+  .site-header{padding:10px 16px !important;}
+}
