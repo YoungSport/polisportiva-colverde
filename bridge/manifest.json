@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "notes": "Restyling Home: layout editoriale più vicino a Pro Patria, mantenendo identità Colverde verde/bianco.",
+  "version": "1.2.0",
+  "notes": "Carosello Home, fascia federazioni e aggiornamento attività: rimossa Avviamento, aggiunti Ninja Trainer e Mini4WD.",
   "files": [
     {
       "path": "front-page.php",
@@ -10,6 +10,11 @@
     {
       "path": "assets/css/main.css",
       "github_path": "assets/css/main.css",
+      "encoding": "text"
+    },
+    {
+      "path": "assets/js/main.js",
+      "github_path": "assets/js/main.js",
       "encoding": "text"
     }
   ],
