@@ -1,20 +1,10 @@
 {
-  "version": "1.0.4",
-  "notes": "Logo ufficiale Colverde salvato come file PNG reale nel tema.",
+  "version": "1.0.5",
+  "notes": "Header verde scuro e logo forzato bianco per massima visibilità.",
   "files": [
-    {
-      "path": "header.php",
-      "github_path": "header.php",
-      "encoding": "text"
-    },
     {
       "path": "assets/css/main.css",
       "github_path": "assets/css/main.css",
-      "encoding": "text"
-    },
-    {
-      "path": "assets/images/logo-colverde.png",
-      "github_path": "assets/images/logo-colverde.png",
       "encoding": "text"
     }
   ],
