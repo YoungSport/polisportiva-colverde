@@ -1,27 +1,84 @@
 <?php get_header(); ?>
 
-<section class="hero hero--editorial">
-  <div class="hero__media">
-    <img src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-Volley-U18-1536x864.jpg" alt="Pallavolo Polisportiva Colverde">
-  </div>
-  <div class="hero__shade"></div>
+<section class="home-carousel" aria-label="In evidenza">
+  <div class="home-carousel__track">
 
-  <div class="hero__content">
-    <p class="eyebrow">POLISPORTIVA COLVERDE · DAL 2014</p>
-    <h1>SPORT.<br>TERRITORIO.<br>COMUNITÀ.</h1>
-    <p class="hero__lead">Cinque discipline. Un’unica identità. Lo sport come luogo di crescita, appartenenza e futuro.</p>
-    <div class="hero__actions">
-      <a class="btn btn--light" href="#sport">Scopri i nostri sport</a>
-      <a class="btn btn--outline" href="<?php echo esc_url(home_url('/la-societa-2/')); ?>">La Polisportiva</a>
+    <article class="home-slide is-active">
+      <img class="home-slide__image" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-Volley-U18-1536x864.jpg" alt="Pallavolo Polisportiva Colverde">
+      <div class="home-slide__shade"></div>
+      <div class="home-slide__content">
+        <p class="eyebrow">POLISPORTIVA COLVERDE · DAL 2014</p>
+        <h1>SPORT.<br>TERRITORIO.<br>COMUNITÀ.</h1>
+        <p>Una società, tanti percorsi. Cresciamo insieme attraverso sport, attività e progetti.</p>
+        <div class="hero__actions">
+          <a class="btn btn--light" href="#sport">Scopri le attività</a>
+          <a class="btn btn--outline" href="<?php echo esc_url(home_url('/la-societa-2/')); ?>">La Polisportiva</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="home-slide">
+      <img class="home-slide__image" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-ATL-RaCaAs-1536x870.jpg" alt="Atletica Polisportiva Colverde">
+      <div class="home-slide__shade"></div>
+      <div class="home-slide__content">
+        <p class="eyebrow">CRESCERE ATTRAVERSO LO SPORT</p>
+        <h2>DALLA PRIMA PROVA<br>ALLA PASSIONE.</h2>
+        <p>Bambini, ragazzi e adulti: Colverde è un luogo dove allenarsi, imparare e sentirsi parte di qualcosa.</p>
+        <div class="hero__actions">
+          <a class="btn btn--light" href="#sport">Trova la tua attività</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="home-slide">
+      <img class="home-slide__image" src="https://polisportivacolverde.it/site/wp-content/uploads/2026/07/2026-07-19_Anteprima-Quadrata_Collaborazione_Colverde_YoungSport_Aurora.png" alt="Progetti Polisportiva Colverde">
+      <div class="home-slide__shade"></div>
+      <div class="home-slide__content">
+        <p class="eyebrow">INSIEME PER CRESCERE</p>
+        <h2>UNA RETE<br>SUL TERRITORIO.</h2>
+        <p>Collaborazioni, impianti, tecnici e comunità: costruiamo opportunità sportive per il territorio.</p>
+        <div class="hero__actions">
+          <a class="btn btn--light" href="<?php echo esc_url(home_url('/contatti/')); ?>">Contattaci</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <button class="home-carousel__arrow home-carousel__arrow--prev" type="button" aria-label="Slide precedente">‹</button>
+  <button class="home-carousel__arrow home-carousel__arrow--next" type="button" aria-label="Slide successiva">›</button>
+
+  <div class="home-carousel__dots" aria-label="Seleziona slide">
+    <button class="is-active" type="button" aria-label="Slide 1"></button>
+    <button type="button" aria-label="Slide 2"></button>
+    <button type="button" aria-label="Slide 3"></button>
+  </div>
+</section>
+
+<section class="federations">
+  <div class="federations__inner">
+    <div class="federations__label">
+      <span>Affiliati e riconosciuti</span>
+      <strong>Le nostre federazioni</strong>
     </div>
-  </div>
 
-  <div class="hero__rail">
-    <a href="<?php echo esc_url(home_url('/squadre/pallavolo/')); ?>">Pallavolo <span>↗</span></a>
-    <a href="<?php echo esc_url(home_url('/squadre/calcio/')); ?>">Calcio <span>↗</span></a>
-    <a href="<?php echo esc_url(home_url('/squadre/ginnastica-artistica/')); ?>">Ginnastica <span>↗</span></a>
-    <a href="<?php echo esc_url(home_url('/squadre/atletica/')); ?>">Atletica <span>↗</span></a>
-    <a href="<?php echo esc_url(home_url('/squadre/avviamento-allo-sport/')); ?>">Avviamento <span>↗</span></a>
+    <div class="federations__logos">
+      <a href="https://www.centrosportivoitaliano.it/" target="_blank" rel="noopener">
+        <img src="https://images.seeklogo.com/logo-png/3/1/csi-logo-png_seeklogo-37159.png" alt="CSI Centro Sportivo Italiano">
+      </a>
+      <a href="https://www.fidal.it/" target="_blank" rel="noopener">
+        <img src="https://www.fidal.it/themes/markup/images/logo_fidal_atletica_italiana.svg" alt="FIDAL">
+      </a>
+      <a href="https://www.federvolley.it/" target="_blank" rel="noopener">
+        <img src="https://www.federvolley.it/logo-fipav.png" alt="FIPAV">
+      </a>
+      <a href="https://www.federginnastica.it/" target="_blank" rel="noopener">
+        <img src="https://images.seeklogo.com/logo-png/22/1/federazione-ginnastica-ditalia-logo-png_seeklogo-225657.png" alt="FGI Federazione Ginnastica d'Italia">
+      </a>
+      <a href="https://www.libertasnazionale.it/" target="_blank" rel="noopener">
+        <img src="https://www.libertasnazionale.it/wp-content/uploads/2024/04/LOGO-LIBERTAS-2.png" alt="Libertas">
+      </a>
+    </div>
   </div>
 </section>
 
@@ -38,13 +95,13 @@
 <section id="sport" class="section sports sports--editorial">
   <div class="section-head section-head--editorial">
     <div>
-      <p class="eyebrow eyebrow--green">I NOSTRI SPORT</p>
-      <h2>Una Polisportiva.<br>Cinque mondi.</h2>
+      <p class="eyebrow eyebrow--green">SPORT, CORSI E PROGETTI</p>
+      <h2>Trova il tuo<br>mondo Colverde.</h2>
     </div>
-    <p class="section-intro">Dai primi passi fino all’attività agonistica. Percorsi diversi, una sola maglia.</p>
+    <p class="section-intro">Attività sportive, percorsi di crescita e nuove esperienze per bambini, ragazzi e adulti.</p>
   </div>
 
-  <div class="sports-grid sports-grid--pro">
+  <div class="sports-grid sports-grid--six">
     <a class="sport-card sport-card--wide" href="<?php echo esc_url(home_url('/squadre/pallavolo/')); ?>">
       <img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-Volley-U16-1536x864.jpg" alt="Pallavolo">
       <span class="sport-card__number">01</span>
@@ -69,10 +126,16 @@
       <div class="sport-card__title"><h3>Atletica</h3><span>Scopri →</span></div>
     </a>
 
-    <a class="sport-card" href="<?php echo esc_url(home_url('/squadre/avviamento-allo-sport/')); ?>">
-      <img class="tile-img" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-AvvSport-1536x870.jpg" alt="Avviamento allo Sport">
+    <a class="sport-card sport-card--graphic sport-card--ninja" href="<?php echo esc_url(home_url('/contatti/')); ?>">
       <span class="sport-card__number">05</span>
-      <div class="sport-card__title"><h3>Avviamento</h3><span>Scopri →</span></div>
+      <span class="sport-card__graphic-word">NINJA</span>
+      <div class="sport-card__title"><h3>Ninja Trainer</h3><span>Info →</span></div>
+    </a>
+
+    <a class="sport-card sport-card--graphic sport-card--mini4wd" href="<?php echo esc_url(home_url('/contatti/')); ?>">
+      <span class="sport-card__number">06</span>
+      <span class="sport-card__graphic-word">4WD</span>
+      <div class="sport-card__title"><h3>Mini4WD</h3><span>Info →</span></div>
     </a>
   </div>
 </section>
@@ -129,7 +192,7 @@
   </div>
   <div class="join__actions">
     <a href="<?php echo esc_url(home_url('/contatti/')); ?>">Contattaci <span>↗</span></a>
-    <a href="#sport">Scopri gli sport <span>↗</span></a>
+    <a href="#sport">Scopri le attività <span>↗</span></a>
     <a href="<?php echo esc_url(home_url('/safeguarding/')); ?>">Safeguarding <span>↗</span></a>
   </div>
 </section>
