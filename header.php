@@ -18,11 +18,11 @@
 
     <nav class="main-nav" aria-label="Navigazione principale">
       <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
-      <a href="<?php echo esc_url(home_url('/la-societa-2/')); ?>">La Polisportiva</a>
+      <a href="<?php echo esc_url(home_url('/storia/')); ?>">La Polisportiva</a>
       <a href="<?php echo esc_url(home_url('/#sport')); ?>">Sport</a>
       <a href="<?php echo esc_url(home_url('/dove-siamo/')); ?>">Impianti</a>
       <a href="<?php echo esc_url(home_url('/eventi/')); ?>">Eventi</a>
-      <a href="<?php echo esc_url(home_url('/safeguarding/')); ?>">Safeguarding</a>
+      <a href="<?php echo esc_url(home_url('/documenti/')); ?>">Documenti</a>
       <a class="nav-cta" href="<?php echo esc_url(home_url('/contatti/')); ?>">Contatti</a>
     </nav>
   </div>
