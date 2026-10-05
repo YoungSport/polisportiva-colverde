@@ -1,20 +1,10 @@
 {
-  "version": "1.2.0",
-  "notes": "Carosello Home, fascia federazioni e aggiornamento attività: rimossa Avviamento, aggiunti Ninja Trainer e Mini4WD.",
+  "version": "1.2.1",
+  "notes": "Tipografia aggiornata in stile Pro Patria: Roboto Condensed su sito, menu e titoli.",
   "files": [
-    {
-      "path": "front-page.php",
-      "github_path": "front-page.php",
-      "encoding": "text"
-    },
     {
       "path": "assets/css/main.css",
       "github_path": "assets/css/main.css",
-      "encoding": "text"
-    },
-    {
-      "path": "assets/js/main.js",
-      "github_path": "assets/js/main.js",
       "encoding": "text"
     }
   ],
