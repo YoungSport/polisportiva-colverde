@@ -1,7 +1,12 @@
 {
-  "version": "1.0.9",
-  "notes": "Logo Colverde ridotto per mostrarlo interamente nell'header.",
+  "version": "1.1.0",
+  "notes": "Restyling Home: layout editoriale più vicino a Pro Patria, mantenendo identità Colverde verde/bianco.",
   "files": [
+    {
+      "path": "front-page.php",
+      "github_path": "front-page.php",
+      "encoding": "text"
+    },
     {
       "path": "assets/css/main.css",
       "github_path": "assets/css/main.css",
