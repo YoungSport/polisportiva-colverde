@@ -1,12 +1,7 @@
 {
-  "version": "1.0.8",
-  "notes": "Logo header collegato direttamente all'ultima immagine caricata nella Libreria Media WordPress.",
+  "version": "1.0.9",
+  "notes": "Logo Colverde ridotto per mostrarlo interamente nell'header.",
   "files": [
-    {
-      "path": "header.php",
-      "github_path": "header.php",
-      "encoding": "text"
-    },
     {
       "path": "assets/css/main.css",
       "github_path": "assets/css/main.css",
