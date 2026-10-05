@@ -4,15 +4,15 @@
   <div class="home-carousel__track">
 
     <article class="home-slide is-active">
-      <img class="home-slide__image" src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-Volley-U18-1536x864.jpg" alt="Pallavolo Polisportiva Colverde">
+      <img class="home-slide__image" src="https://polisportivacolverde.it/site/wp-content/uploads/2026/10/Collage-sportivo-giovanile-in-verde.png" alt="Le attività della Polisportiva Colverde">
       <div class="home-slide__shade"></div>
       <div class="home-slide__content">
         <p class="eyebrow">POLISPORTIVA COLVERDE · DAL 2014</p>
-        <h1>SPORT.<br>TERRITORIO.<br>COMUNITÀ.</h1>
-        <p>Una società, tanti percorsi. Cresciamo insieme attraverso sport, attività e progetti.</p>
+        <h1>PIÙ SPORT.<br>UNA SOLA COMUNITÀ.</h1>
+        <p>Scopri tutte le opportunità sportive e i progetti Colverde.</p>
         <div class="hero__actions">
           <a class="btn btn--light" href="#sport">Scopri le attività</a>
-          <a class="btn btn--outline" href="<?php echo esc_url(home_url('/la-societa-2/')); ?>">La Polisportiva</a>
+          <a class="btn btn--outline" href="<?php echo esc_url(home_url('/storia/')); ?>">La nostra storia</a>
         </div>
       </div>
     </article>
@@ -140,12 +140,44 @@
   </div>
 </section>
 
+
+<section class="section know-colverde">
+  <div class="section-head section-head--editorial">
+    <div>
+      <p class="eyebrow eyebrow--green">CONOSCI COLVERDE</p>
+      <h2>Una società<br>trasparente.</h2>
+    </div>
+    <p class="section-intro">Storia, persone e documenti: tutto quello che serve per conoscere davvero la Polisportiva.</p>
+  </div>
+
+  <div class="know-grid">
+    <a class="know-card" href="<?php echo esc_url(home_url('/storia/')); ?>">
+      <span class="know-card__index">01</span>
+      <h3>La nostra storia</h3>
+      <p>Dal 2014, sport e territorio crescono insieme.</p>
+      <span>Scopri →</span>
+    </a>
+    <a class="know-card" href="<?php echo esc_url(home_url('/consiglio-direttivo/')); ?>">
+      <span class="know-card__index">02</span>
+      <h3>Consiglio Direttivo</h3>
+      <p>Chi guida e rappresenta la Polisportiva Colverde.</p>
+      <span>Conosci le persone →</span>
+    </a>
+    <a class="know-card" href="<?php echo esc_url(home_url('/documenti/')); ?>">
+      <span class="know-card__index">03</span>
+      <h3>Documenti pubblici</h3>
+      <p>Statuto, safeguarding, regolamenti e documenti utili.</p>
+      <span>Consulta →</span>
+    </a>
+  </div>
+</section>
+
 <section class="manifesto">
   <div class="manifesto__copy">
     <p class="eyebrow">#SIAMOCOLVERDE</p>
     <h2>Non solo una società.<br>Una comunità sportiva.</h2>
     <p>Nata dall’unione delle realtà sportive di Drezzo, Gironico e Parè, la Polisportiva Colverde accompagna bambini, ragazzi e adulti attraverso sport, educazione e appartenenza.</p>
-    <a class="manifesto__link" href="<?php echo esc_url(home_url('/la-societa-2/')); ?>">La nostra storia →</a>
+    <a class="manifesto__link" href="<?php echo esc_url(home_url('/storia/')); ?>">La nostra storia →</a>
   </div>
   <div class="manifesto__media">
     <img src="https://polisportivacolverde.it/site/wp-content/uploads/2022/08/20220828-ATL-RaCaAs-1536x870.jpg" alt="Atletica Polisportiva Colverde">
