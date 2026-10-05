@@ -12,7 +12,7 @@
   <div class="site-header__inner">
     <a class="brand" href="<?php echo esc_url(home_url('/')); ?>" aria-label="Polisportiva Colverde">
       <span class="brand__logo-shell">
-        <img class="brand__logo" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/logo-colverde.png?v=107'); ?>" alt="Polisportiva Colverde">
+        <img class="brand__logo" src="https://polisportivacolverde.it/site/wp-content/uploads/2026/10/Screenshot-2026-06-30-alle-11.55.00-1.png" alt="Polisportiva Colverde">
       </span>
     </a>
 
