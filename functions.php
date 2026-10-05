@@ -56,3 +56,31 @@ function colverde_css_fallback() {
     }
 }
 add_action('wp_head', 'colverde_css_fallback', 99);
+
+
+/* Pagine istituzionali Colverde */
+function colverde_ensure_public_pages() {
+    if (!is_admin() || get_option('colverde_public_pages_v130')) return;
+
+    $pages = [
+        'storia' => 'La nostra storia',
+        'consiglio-direttivo' => 'Consiglio Direttivo',
+        'documenti' => 'Documenti',
+        'privacy-cookie' => 'Privacy & Cookie',
+    ];
+
+    foreach ($pages as $slug => $title) {
+        if (!get_page_by_path($slug, OBJECT, 'page')) {
+            wp_insert_post([
+                'post_title'   => $title,
+                'post_name'    => $slug,
+                'post_status'  => 'publish',
+                'post_type'    => 'page',
+                'post_content' => '',
+            ]);
+        }
+    }
+
+    update_option('colverde_public_pages_v130', 1, false);
+}
+add_action('admin_init', 'colverde_ensure_public_pages');
