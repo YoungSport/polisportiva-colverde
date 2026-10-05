@@ -1,7 +1,12 @@
 {
-  "version": "1.0.5",
-  "notes": "Header verde scuro e logo forzato bianco per massima visibilità.",
+  "version": "1.0.6",
+  "notes": "Correzione definitiva visibilità logo: usa asset WordPress già disponibile e lo rende bianco.",
   "files": [
+    {
+      "path": "header.php",
+      "github_path": "header.php",
+      "encoding": "text"
+    },
     {
       "path": "assets/css/main.css",
       "github_path": "assets/css/main.css",
