@@ -21,6 +21,7 @@
       <a href="<?php echo esc_url(home_url('/#sport')); ?>">Sport</a>
       <a href="<?php echo esc_url(home_url('/dove-siamo/')); ?>">Impianti</a>
       <a href="<?php echo esc_url(home_url('/eventi/')); ?>">Eventi</a>
+      <a href="<?php echo esc_url(home_url('/sponsor/')); ?>">Sponsor</a>
       <a href="<?php echo esc_url(home_url('/safeguarding/')); ?>">Safeguarding</a>
       <a class="nav-cta" href="<?php echo esc_url(home_url('/contatti/')); ?>">Contatti</a>
     </nav>
