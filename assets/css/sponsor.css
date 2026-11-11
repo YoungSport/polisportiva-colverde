@@ -1,0 +1,95 @@
+/* Pagina Sponsor — Polisportiva Colverde */
+.sponsor-hero {
+  background: radial-gradient(circle at 85% 20%, #246844 0%, transparent 38%), var(--pc-dark);
+  color: #fff;
+  padding: 170px 34px 100px;
+}
+.sponsor-hero__inner, .sponsor-showcase__inner, .sponsor-cta__inner {
+  width: min(100%, 1180px);
+  margin: 0 auto;
+}
+.sponsor-hero h1 {
+  margin: 0;
+  font-size: clamp(66px, 10vw, 148px);
+  line-height: .85;
+  font-weight: 900;
+  letter-spacing: -.068em;
+}
+.sponsor-hero h1 span { color: #9dddb4; }
+.sponsor-hero__lead {
+  margin: 35px 0 0;
+  max-width: 680px;
+  font-size: clamp(18px, 2.1vw, 25px);
+  line-height: 1.45;
+  color: rgba(255,255,255,.78);
+}
+.sponsor-showcase { padding: 92px 34px 110px; background: #f6f7f5; }
+.sponsor-showcase h2 {
+  margin: 0 0 34px;
+  font-size: clamp(34px, 4.2vw, 60px);
+  line-height: 1;
+  letter-spacing: -.05em;
+}
+.sponsor-grid { display: grid; gap: 24px; }
+.sponsor-card {
+  display: grid;
+  grid-template-columns: minmax(250px, .85fr) minmax(0, 1.15fr);
+  gap: 55px;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e5eae5;
+  border-radius: 18px;
+  padding: 36px;
+  box-shadow: 0 18px 45px rgba(8, 30, 17, .055);
+}
+.sponsor-card__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 310px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #ffdf00;
+}
+.sponsor-card__brand a { display: grid; place-items: center; width: 100%; height: 100%; }
+.sponsor-card__brand img { display: block; width: 100%; height: auto; max-height: 280px; object-fit: contain; }
+.sponsor-card__category {
+  margin: 0 0 12px;
+  color: var(--pc-green);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+}
+.sponsor-card h3 { margin: 0 0 19px; font-size: clamp(38px, 4vw, 62px); line-height: 1; letter-spacing: -.06em; }
+.sponsor-card__body > p:not(.sponsor-card__category) { font-size: 17px; line-height: 1.65; color: #3c4b43; margin: 0 0 16px; }
+.sponsor-card__body > .sponsor-card__thanks { font-weight: 600; color: #23382b; }
+.sponsor-card__link {
+  display: inline-flex;
+  gap: 14px;
+  align-items: center;
+  margin-top: 12px;
+  padding: 13px 20px;
+  border: 2px solid var(--pc-green);
+  border-radius: 999px;
+  color: var(--pc-green);
+  font-size: 14px;
+  font-weight: 900;
+  transition: background .2s, color .2s;
+}
+.sponsor-card__link:hover, .sponsor-card__link:focus-visible { background: var(--pc-green); color: #fff; }
+.sponsor-cta { background: var(--pc-green); color: #fff; padding: 105px 34px; }
+.sponsor-cta h2 { margin: 0; font-size: clamp(38px, 5vw, 70px); line-height: 1.02; letter-spacing: -.055em; }
+.sponsor-cta p:not(.eyebrow) { max-width: 670px; font-size: 19px; line-height: 1.6; margin: 28px 0; color: rgba(255,255,255,.89); }
+@media (max-width: 840px) {
+  .sponsor-card { grid-template-columns: 1fr; gap: 28px; }
+  .sponsor-card__brand { min-height: 240px; }
+}
+@media (max-width: 700px) {
+  .sponsor-hero { padding: 135px 18px 74px; }
+  .sponsor-showcase { padding: 65px 18px 80px; }
+  .sponsor-card { padding: 18px; border-radius: 13px; }
+  .sponsor-card__brand { min-height: 190px; }
+  .sponsor-card__brand img { max-height: 210px; }
+  .sponsor-cta { padding: 80px 18px; }
+}
